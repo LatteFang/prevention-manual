@@ -1,0 +1,16 @@
+<view>
+    <view class="content">
+        <image mode="widthFix" src="../../images/1.png"></image>
+    </view>
+    <view class="padding">
+        <view class="bg-white padding borderStyle">
+            <view bindtap="__e" class="btnView" data-event-opts="{{[ [ 'tap',[ [ 'goList',['0'] ] ] ] ]}}">治疗篇</view>
+            <view bindtap="__e" class="btnView" data-event-opts="{{[ [ 'tap',[ [ 'goList',['1'] ] ] ] ]}}">居家篇</view>
+            <view bindtap="__e" class="btnView" data-event-opts="{{[ [ 'tap',[ [ 'goList',['2'] ] ] ] ]}}">就医篇</view>
+            <view bindtap="__e" class="btnView" data-event-opts="{{[ [ 'tap',[ [ 'goList',['3'] ] ] ] ]}}">预防篇</view>
+            <view bindtap="__e" class="btnView" data-event-opts="{{[ [ 'tap',[ [ 'goList',['4'] ] ] ] ]}}">辟谣篇</view>
+            <view bindtap="__e" class="btnView" data-event-opts="{{[ [ 'tap',[ [ 'goList',['5'] ] ] ] ]}}">返岗篇</view>
+            <view bindtap="__e" class="btnView" data-event-opts="{{[ [ 'tap',[ [ 'goList',['6'] ] ] ] ]}}">消杀篇</view>
+        </view>
+    </view>
+</view>

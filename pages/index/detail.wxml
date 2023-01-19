@@ -1,0 +1,10 @@
+<view>
+    <view class="content">
+        <image mode="widthFix" src="{{detail.answer}}"></image>
+    </view>
+    <view style="margin-top:80px;padding-left:40px;padding-right:40px;">
+        <u-button bind:__l="__l" customStyle="{{customStyle}}" hoverClass="none" openType="share" shape="circle" size="default" vueId="49115082-1" vueSlots="{{['default']}}">
+            <u-icon bind:__l="__l" name="zhuanfa" size="40" vueId="{{'49115082-2'+','+'49115082-1'}}"></u-icon>分享保护家人朋友</u-button>
+    </view>
+    <view style="height:150rpx;"></view>
+</view>

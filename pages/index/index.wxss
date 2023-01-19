@@ -1,0 +1,23 @@
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.borderStyle {
+    border: 8px solid #3ea6cf;
+    border-radius: 10px;
+}
+
+.btnView {
+    background-color: #1bc78c;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30rpx;
+    margin-top: 30rpx;
+    padding: 10rpx;
+    text-align: center;
+}

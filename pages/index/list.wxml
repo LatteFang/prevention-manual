@@ -1,0 +1,16 @@
+<view>
+    <view class="content">
+        <image mode="widthFix" src="../../images/1.png"></image>
+    </view>
+    <view class="padding">
+        <view class="bg-white padding borderStyle">
+            <view class="btnView">{{dataSource.father}}</view>
+            <view bindtap="__e" class="btnView1" data-event-opts="{{[ [ 'tap',[ [ 'goDetail',['$0'],[ [ ['dataSource.detail','',index] ] ] ] ] ] ]}}" wx:for="{{dataSource.detail}}" wx:key="index">{{''+item.question}}</view>
+        </view>
+    </view>
+    <view style="margin-top:80px;padding-left:40px;padding-right:40px;">
+        <u-button bind:__l="__l" customStyle="{{customStyle}}" hoverClass="none" openType="share" shape="circle" size="default" vueId="8e0fffdc-1" vueSlots="{{['default']}}">
+            <u-icon bind:__l="__l" name="zhuanfa" size="40" vueId="{{'8e0fffdc-2'+','+'8e0fffdc-1'}}"></u-icon>分享保护家人朋友</u-button>
+    </view>
+    <view style="height:150rpx;"></view>
+</view>

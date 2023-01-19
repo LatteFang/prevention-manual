@@ -1,0 +1,14 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/index/list",
+        "pages/index/detail"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#94d7f1",
+        "backgroundColor": "#94d7f1"
+    },
+      "lazyCodeLoading": "requiredComponents"
+}
